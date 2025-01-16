@@ -9,7 +9,7 @@ DOWNLOAD_DIR = "/usr/src/app/downloads/"
 CMD_SUFFIX = ""
 AUTHORIZED_CHATS = ""
 SUDO_USERS = "5827289728"
-DATABASE_URL = "mongodb+srv://jedoxo2854:blasty@cluster0.8uv4j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DATABASE_URL = ""
 STATUS_LIMIT = 10
 DEFAULT_UPLOAD = "rc"
 STATUS_UPDATE_INTERVAL = 15
@@ -58,7 +58,7 @@ USENET_SERVERS = [
     }
 ]
 # Update
-UPSTREAM_REPO = ""
+UPSTREAM_REPO = "https://github.com/timstan627/Anasty-MLTB"
 UPSTREAM_BRANCH = "master"
 # Leech
 LEECH_SPLIT_SIZE = 0
