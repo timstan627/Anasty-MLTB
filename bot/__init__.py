@@ -20,6 +20,10 @@ from uvloop import install
 # from faulthandler import enable as faulthandler_enable
 # faulthandler_enable()
 
+from pyrogram import utils as pyroutils
+pyroutils.MIN_CHAT_ID = -999999999999
+pyroutils.MIN_CHANNEL_ID = -100999999999999
+
 install()
 setdefaulttimeout(600)
 
